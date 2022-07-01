@@ -2,6 +2,9 @@
 
 [![npm version](https://badge.fury.io/js/version-from-git.svg)](https://badge.fury.io/js/version-from-git) [![Build Status](https://travis-ci.org/compulim/version-from-git.svg?branch=master)](https://travis-ci.org/compulim/version-from-git)
 
+> **Note**
+> Forked to update dependencies with vulnerabilities and fix an [issue](https://github.com/compulim/version-from-git/issues/4) in the original package, which seems unmaintained.
+
 # Background
 
 We want to use `npm version` to bump to a customized version that contains both Git branch and commit hash.
