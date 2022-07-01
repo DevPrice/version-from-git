@@ -57,6 +57,8 @@ function main() {
     process.exit(-1);
   }
 
+  branch = branch.replaceAll(/[^a-z\d]+/ig, "-")
+
   const packageJSONPath = resolve('package.json');
 
   log(`Reading from ${ magenta(packageJSONPath) }`);
